@@ -14,8 +14,8 @@ class MemberFactory extends Factory
     public function definition()
     {
         return [
-            'name' => $this->faker->name(),
-            'email' => $this->faker->unique()->email(),
+            'name' => 'Member',
+            'email' => 'member@gmail.com',
             'password' => 'password'
         ];
     }
